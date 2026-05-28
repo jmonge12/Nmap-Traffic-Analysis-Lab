@@ -24,4 +24,4 @@ python3 -m http.server 8000
 *   **Escaneo Básico (`nmap -p 8000 localhost`):** Identifica que el puerto está abierto y asume de forma genérica el servicio por defecto (`http-alt`).
 *   **Escaneo de Versiones (`nmap -sV -p 8000 localhost`):** Interroga directamente el banner del puerto abierto. Logra extraer con precisión quirúrgica el software y su versión exacta: `SimpleHTTPServer 0.6 (Python 3.13.12)`.
 
-![Resultados de Escaneo Nmap](escaneo_nmap.png)
+![Resultados de Escaneo Nmap](https://github.com/jmonge12/Nmap-Traffic-Analysis-Lab/blob/31915986bbcb7fa4a49d6338f92d2222a8fa5588/escaneo_nmap.png.png)
