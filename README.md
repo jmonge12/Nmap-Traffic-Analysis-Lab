@@ -32,4 +32,4 @@ Al analizar el registro de accesos del servidor Python, se identificó el compor
 *   **Conexiones Exitosas:** Peticiones legítimas `GET / HTTP/1.0` que devuelven un código de estado `200`.
 *   **Falsos Positivos y Sondeos:** Nmap lanzó una ráfaga de peticiones automáticas buscando rutas comunes de administración o vulnerabilidades conocidas (ej. `/HNAP1`, `/evox/about`, `/nmaplowercheck...`). El servidor denegó estas solicitudes con códigos de estado `404` (No encontrado) y `501` (Método no soportado), dejando en evidencia la firma del escaneo.
 
-![Logs de Auditoría en Servidor Python](logs_servidor.png)
+![Logs de Auditoría en Servidor Python](https://github.com/jmonge12/Nmap-Traffic-Analysis-Lab/blob/89abb1af52329217b877962a4c97bb18cdf60b80/logs_servidor.png.png)
