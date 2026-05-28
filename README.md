@@ -17,9 +17,8 @@ Este laboratorio práctico demuestra la interacción directa entre un auditor de
 
 ### 1. Despliegue del Servicio (Víctima)
 Se levantó un servidor web básico en Python escuchando en el puerto 8000 para simular un servicio corporativo expuesto:
-```bash
-python3 -m http.server 8000
 
+python3 -m http.server 8000
 
 ### 2. Escaneo Inicial vs. Detección Avanzada (Atacante)
 *   **Escaneo Básico (`nmap -p 8000 localhost`):** Identifica que el puerto está abierto y asume de forma genérica el servicio por defecto (`http-alt`).
